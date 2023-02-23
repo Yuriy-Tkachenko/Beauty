@@ -1,0 +1,57 @@
+.special-offer {
+  background-color: $firm-light-grey;
+}
+
+.special-offer .container {
+  padding: 80px 20px 80px 20px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.special-offer__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.special-offer__item {
+  padding: 20px 30px;
+  text-align: center;
+  background-color: $firm-white;
+  margin-bottom: 20px;
+}
+
+.special-offer__picture {
+  margin-bottom: 20px;
+}
+
+.special-offer__description {
+  font-size: 14px;
+  line-height: 20px;
+  max-width: 162px;
+  margin-bottom: 20px;
+}
+
+.special-offer__price {
+  font-size: 21px;
+  line-height: 25px;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.special-offer__button {
+  @include button;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: $firm-white;
+  background-color: $firm-green;
+  padding: 9px 40px;
+  border-radius: 40px;
+}
