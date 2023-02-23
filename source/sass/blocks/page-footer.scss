@@ -1,0 +1,39 @@
+.contacts-info {
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.social-list {
+  display: flex;
+  align-items: center;
+}
+
+.social-item {
+  &:not(:last-child) {
+    margin-right: 40px;
+  }
+}
+
+.confidential-wrapper {
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  color: $firm-grey;
+  background-color: $firm-light-grey;
+}
+
+.confidential-info {
+  font-size: 12px;
+  line-height: 14px;
+  margin-right: 340px;
+}
+
+.politic-info {
+  font-size: 12px;
+  line-height: 14px;
+}
