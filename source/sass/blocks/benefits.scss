@@ -1,0 +1,73 @@
+.benefits {
+  background-color: $firm-light-grey;
+}
+.benefits .container {
+  padding-bottom: 132px;
+}
+
+.benefits__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.benefits__item {
+  background-color: $firm-green;
+  color: $firm-white;
+  padding: 35px 43px;
+  width: 514px;
+  position: relative;
+  margin-bottom: 20px;
+
+  &:before {
+    content: "";
+    position: absolute;
+  }
+}
+
+.benefits__item--mail-logo-position {
+  &:before {
+    width: 140px;
+    height: 107px;
+    background-image: url(../../img/mail.svg);
+    right: 40px;
+    top: 25%;
+  }
+}
+
+.benefits__item--car-logo-position {
+  &:before {
+    width: 189px;
+    height: 91px;
+    background-image: url(../../img/car.svg);
+    right: 40px;
+    top: 25%;
+  }
+}
+
+.benefits__title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0 0 25px 0;
+}
+
+.benefits__description {
+  margin: 0 0 25px 0;
+}
+
+.benefits__description--position {
+  margin-bottom: 34px;
+}
+
+.benefits-form__input {
+  color: $firm-light-grey;
+  font-size: 14px;
+  line-height: 16px;
+  border: none;
+  border-radius: 40px;
+  padding: 9px 25px;
+}
+
+.button-link {
+}
