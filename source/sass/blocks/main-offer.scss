@@ -1,0 +1,36 @@
+.main-offer {
+  background-image: url(../../img//main-background@1x.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: $firm-white;
+}
+
+.main-offer .container {
+  display: flex;
+  height: 604px;
+  align-items: center;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  margin: 0 0 50px 0;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  max-width: 308px;
+  margin-bottom: 62px;
+}
+.button-link {
+  color: $firm-white;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  padding: 12px 44px;
+  border: 2px solid $firm-white;
+  border-radius: 40px;
+}
