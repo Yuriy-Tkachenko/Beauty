@@ -1,0 +1,99 @@
+.page-header .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.company-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 120px;
+  flex-wrap: wrap;
+
+  @media(min-width: $tablet-width) {
+    justify-content: space-between;
+  }
+}
+
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  margin-right: 20px;
+}
+
+.logo-name {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: $firm-green;
+}
+
+.phone-number-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin-right: 40px;
+}
+
+.cb-button {
+  @include button;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 12px 26px;
+  border: 2px solid $firm-green;
+  border-radius: 40px;
+}
+
+.user-nav {
+  background-color: $firm-light-grey;
+}
+
+.user-nav__list {
+  min-height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.user-nav__item {
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.user-nav__item a {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.site-nav {
+  border-top: 1px solid $firm-light-grey;
+}
+
+.site-nav__list {
+  min-height: 79px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.site-nav__item {
+  &:not(:last-child) {
+    margin-right: 40px;
+  }
+}
+
+.site-nav__item a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
